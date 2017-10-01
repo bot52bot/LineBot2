@@ -15,7 +15,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""Riki Oktopan Bot"""
+helpMessage ="""Riki Oktopan Bot
 
 [Id︎]
 [Mid]
