@@ -1596,6 +1596,17 @@ def bot(op):
             elif msg.text in ["Riki"]:
                 ki.sendText(msg.to,"Awas dia ngangenin")
 		
+            elif msg.text in ["Smule"]:
+                ki.sendText(msg.to,"Follow ID Smule Aku Ya @RED_RikiOktopan")
+		
+            elif msg.text in ["Ockta","Otok"]:
+                ki.sendText(msg.to,"Awas dia Pekok")
+		
+            elif msg.text in ["Intan"]:
+                ki.sendText(msg.to,"11:12 Sama ockta pekok nya")
+		
+		
+		
 #-----------------------------------------------
 
             elif msg.text in ["Oit"]:
