@@ -1315,15 +1315,16 @@ def bot(op):
                     wait2['readMember'][msg.to] = ""
                     wait2['ROM'][msg.to] = {}
                     print wait2
-             elif msg.text == "Lihat":
+            elif msg.text == "Lihat":
                     if msg.to in wait2['readPoint']:
                         if wait2["ROM"][msg.to].items() == []:
                             chiya = ""
                         else:
                             chiya = ""
-                            for rom in wait["ROM"][msg.to].items():
+                            for rom in wait2["ROM"][msg.to].items():
                                 print rom
- 				chiya += rom[1] + "\n"
+                                chiya += rom[1] + "\n"
+
 
                         cl.sendText(msg.to, "List Jones Yang Ngintip %sMinta Di Getok\n\nRikiOktopan Bot:\n[%s]"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
                     else:
